@@ -1,0 +1,255 @@
+.App {
+  font-family: cabin, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.App-logo {
+  position: relative;
+  width: 136px;
+  height: 24px;
+  top: 28px;
+  left: 28px;
+}
+
+.header-content {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  top: 28px;
+  right: 28px;
+}
+
+.bell-icon {
+  width: 18px;
+  height: 20px;
+}
+
+.body {
+  display: flex;
+}
+
+.side-bar {
+  display: grid;
+  margin-left: 20px;
+  gap: 15px;
+  width: 15%;
+  margin-top: 30px;
+  height: fit-content;
+}
+
+.wrapper {
+  width: 85%;
+  padding: 20px;
+  background-color: #fff9f1;
+}
+
+.active {
+  background-color: #fff9f1;
+  border-radius: 14px;
+}
+
+.side-bar-text {
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.search-bar {
+  background-color: #fff;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.faq {
+  text-align: center;
+  background-color: #fff;
+  width: 150px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.appointment-btn {
+  text-align: center;
+  width: 150px;
+  padding: 15px;
+  border: 2px solid #4c4d4f;
+  border-radius: 30px;
+}
+
+.search-faq-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.date-time-bar {
+  display: flex;
+  margin-top: 15px;
+  gap: 30px;
+}
+
+.date-bar {
+  display: flex;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.time-bar {
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.studio {
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.title-text {
+  color: rgba(76, 77, 79, 0.5);
+}
+
+.doctor-profile {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.doctor-notes {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.appiontments {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.appiontments-text {
+  font-size: 22px;
+  text-align: center;
+}
+
+.patient-detail {
+  margin-top: 30px;
+  width: 125%;
+}
+
+.notes {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 30px;
+  width: 50%;
+}
+
+.treatment-performed {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.note-pic {
+  height: 250px;
+}
+
+.treatment-title {
+  border-bottom: 1px solid rgba(188, 188, 188, 0.25);
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.send-message {
+  border: 1px solid rgba(76, 77, 79, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}
+
+.treatment-history {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.treatment-table {
+  width: 100%;
+  border: 1px solid rgba(76, 77, 79, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #f8f8f8;
+}
+
+.treatment-table tr {
+  height: 50px;
+}
+
+.pending-text {
+  background: rgb(241, 179, 74);
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.surgical-history {
+  border-radius: 20px;
+  background: #fff;
+}
+
+.history-icon-bg {
+  background: rgb(248, 248, 248);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.history-title {
+  margin-top: 15px;
+}
+
+.liposuction {
+  background: #f8f8f8;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
