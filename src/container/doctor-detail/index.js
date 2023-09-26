@@ -414,7 +414,7 @@ function DoctorDetail() {
                   style={{
                     display: "flex",
                     justifyContent: "space-between",
-                    padding: "20px",
+                    padding: "10px 40px",
                     borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
                   }}
                 >
@@ -423,7 +423,7 @@ function DoctorDetail() {
                     <img src={edit2} alt="" />
                   </span>
                 </div>
-                <div style={{height:"200px", overflow:"scroll"}}>
+                <div style={{ height: "200px", overflow: "scroll" }}>
                   <div className="liposuction">
                     <p>1. Liposuction</p>
                     <div
@@ -581,8 +581,698 @@ function DoctorDetail() {
                   </div>
                 </div>
               </div>
+              <div className="surgical-history">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 40px",
+                    borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
+                  }}
+                >
+                  <span className="history-title">Medications History</span>
+                  <span className="history-icon-bg">
+                    <img src={edit2} alt="" />
+                  </span>
+                </div>
+                <div style={{ height: "200px", overflow: "scroll" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "40px 40px 0 40px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>Long Term Medications</span>
+                    <span style={{ width: "30%" }}>Short Term Medications</span>
+                    <span style={{ width: "30%" }}>
+                      Botox and Profihilo Injections
+                    </span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      1. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      1. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      2. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      2. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      3. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      3. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      4. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      4. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      5. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      5. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      6. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      6. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "20px 40px 0 40px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    <span style={{ width: "30%" }}>
+                      7. Paracetamol{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        14 Aug, 2023
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}>
+                      7. Amoxicillin{" "}
+                      <span
+                        style={{
+                          color: "rgba(76, 77, 79, 0.50)",
+                          width: "30%",
+                        }}
+                      >
+                        250mg
+                      </span>
+                    </span>
+                    <span style={{ width: "30%" }}></span>
+                  </div>
+                </div>
+              </div>
+              <div className="surgical-history">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 40px",
+                    borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
+                  }}
+                >
+                  <span className="history-title">Consent Forms</span>
+                  <span className="history-icon-bg">
+                    <img src={edit2} alt="" />
+                  </span>
+                </div>
+                <div style={{ height: "200px", overflow: "scroll" }}>
+                  <div
+                    style={{
+                      border: "1px solid rgba(76, 77, 79, 0.2)",
+                      borderRadius: "20px",
+                      margin: "20px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "20px 40px",
+                      }}
+                    >
+                      <span style={{ width: "20%" }}>Form Name</span>
+                      <span style={{ width: "20%" }}>Date</span>
+                      <span style={{ width: "20%" }}>Treatment</span>
+                      <span style={{ width: "20%" }}>Status</span>
+                      <span style={{ width: "20%" }}>Action</span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "20px 40px",
+                        background: "#F8F8F8",
+                      }}
+                    >
+                      <span style={{ width: "20%" }}>Consent Form</span>
+                      <span style={{ width: "20%" }}>14/08/2023</span>
+                      <span style={{ width: "20%" }}>PRP Injections</span>
+                      <span style={{ width: "20%" }}>
+                        <div
+                          style={{
+                            width: "80px",
+                            padding: "5px 0px",
+                            background: "#36C490",
+                            borderRadius: "10.50px",
+                            textAlign: "center",
+                            color: "white",
+                            fontSize: "12px",
+                          }}
+                        >
+                          Complete
+                        </div>
+                      </span>
+                      <span
+                        style={{ width: "20%", textDecoration: "underline" }}
+                      >
+                        View
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "20px 40px",
+                        background: "#F8F8F8",
+                      }}
+                    >
+                      <span style={{ width: "20%" }}>Consent Form</span>
+                      <span style={{ width: "20%" }}>14/08/2023</span>
+                      <span style={{ width: "20%" }}>PRP Injections</span>
+                      <span style={{ width: "20%" }}>
+                        <div
+                          style={{
+                            width: "80px",
+                            padding: "5px 0px",
+                            background: "#F1684A",
+                            borderRadius: "10.50px",
+                            textAlign: "center",
+                            color: "white",
+                            fontSize: "12px",
+                          }}
+                        >
+                          Expired
+                        </div>
+                      </span>
+                      <span
+                        style={{ width: "20%", textDecoration: "underline" }}
+                      >
+                        Retake
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "20px 40px",
+                        background: "#F8F8F8",
+                      }}
+                    >
+                      <span style={{ width: "20%" }}>Consent Form</span>
+                      <span style={{ width: "20%" }}>14/08/2023</span>
+                      <span style={{ width: "20%" }}>PRP Injections</span>
+                      <span style={{ width: "20%" }}>
+                        <div
+                          style={{
+                            width: "80px",
+                            padding: "5px 0px",
+                            background: "#36C490",
+                            borderRadius: "10.50px",
+                            textAlign: "center",
+                            color: "white",
+                            fontSize: "12px",
+                          }}
+                        >
+                          Complete
+                        </div>
+                      </span>
+                      <span
+                        style={{ width: "20%", textDecoration: "underline" }}
+                      >
+                        View
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "20px 40px",
+                        background: "#F8F8F8",
+                      }}
+                    >
+                      <span style={{ width: "20%" }}>Consent Form</span>
+                      <span style={{ width: "20%" }}>14/08/2023</span>
+                      <span style={{ width: "20%" }}>PRP Injections</span>
+                      <span style={{ width: "20%" }}>
+                        <div
+                          style={{
+                            width: "80px",
+                            padding: "5px 0px",
+                            background: "#36C490",
+                            borderRadius: "10.50px",
+                            textAlign: "center",
+                            color: "white",
+                            fontSize: "12px",
+                          }}
+                        >
+                          Complete
+                        </div>
+                      </span>
+                      <span
+                        style={{ width: "20%", textDecoration: "underline" }}
+                      >
+                        View
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "20px 40px",
+                        background: "#F8F8F8",
+                        borderRadius: "0 0 20px 20px",
+                      }}
+                    >
+                      <span style={{ width: "20%" }}>Consent Form</span>
+                      <span style={{ width: "20%" }}>14/08/2023</span>
+                      <span style={{ width: "20%" }}>PRP Injections</span>
+                      <span style={{ width: "20%" }}>
+                        <div
+                          style={{
+                            width: "80px",
+                            padding: "5px 0px",
+                            background: "#F1684A",
+                            borderRadius: "10.50px",
+                            textAlign: "center",
+                            color: "white",
+                            fontSize: "12px",
+                          }}
+                        >
+                          Expired
+                        </div>
+                      </span>
+                      <span
+                        style={{ width: "20%", textDecoration: "underline" }}
+                      >
+                        Retake
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="surgical-history">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 40px",
+                    borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
+                  }}
+                >
+                  <span className="history-title">Blood & Pathology</span>
+                  <span className="history-icon-bg">
+                    <img src={edit2} alt="" />
+                  </span>
+                </div>
+                <div>
+                  <div style={{ padding: "20px 40px" }}>
+                    <h4>Select Test</h4>
+                    <div className="history-search" style={{ width: "50%" }}>
+                      <span>select test to order</span>
+                      <img
+                        src={downArrow}
+                        className="search-icon"
+                        alt="search"
+                      />
+                    </div>
+                    <h4 style={{ marginTop: "50px" }}>Test Requests</h4>
+                    <div
+                      style={{
+                        marginTop: "10px",
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div className="history-search" style={{ width: "80%" }}>
+                        <span>Imaging</span>
+                        <img
+                          src={downArrow}
+                          className="search-icon"
+                          alt="search"
+                        />
+                      </div>
+                      <div
+                        style={{
+                          borderRadius: "14px",
+                          border: "1px #4C4D4F solid",
+                          padding: "10px",
+                        }}
+                      >
+                        View More
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        marginTop: "10px",
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div className="history-search" style={{ width: "80%" }}>
+                        <span>Radiology</span>
+                        <img
+                          src={downArrow}
+                          className="search-icon"
+                          alt="search"
+                        />
+                      </div>
+                      <div
+                        style={{
+                          borderRadius: "14px",
+                          border: "1px #4C4D4F solid",
+                          padding: "10px",
+                        }}
+                      >
+                        View More
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="surgical-history">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 40px",
+                    borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
+                  }}
+                >
+                  <span className="history-title">Imaging & Radiology</span>
+                  <span className="history-icon-bg">
+                    <img src={edit2} alt="" />
+                  </span>
+                </div>
+                <div>
+                  <div style={{ padding: "20px 40px" }}>
+                    <h4>Select Test</h4>
+                    <div className="history-search" style={{ width: "50%" }}>
+                      <span>select test to order</span>
+                      <img
+                        src={downArrow}
+                        className="search-icon"
+                        alt="search"
+                      />
+                    </div>
+                    <h4 style={{ marginTop: "50px" }}>Test Requests</h4>
+                    <div
+                      style={{
+                        marginTop: "10px",
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div className="history-search" style={{ width: "80%" }}>
+                        <span>Imaging</span>
+                        <img
+                          src={downArrow}
+                          className="search-icon"
+                          alt="search"
+                        />
+                      </div>
+                      <div
+                        style={{
+                          borderRadius: "14px",
+                          border: "1px #4C4D4F solid",
+                          padding: "10px",
+                        }}
+                      >
+                        View More
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        marginTop: "10px",
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div className="history-search" style={{ width: "80%" }}>
+                        <span>Radiology</span>
+                        <img
+                          src={downArrow}
+                          className="search-icon"
+                          alt="search"
+                        />
+                      </div>
+                      <div
+                        style={{
+                          borderRadius: "14px",
+                          border: "1px #4C4D4F solid",
+                          padding: "10px",
+                        }}
+                      >
+                        View More
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div style={{ width: "30%" }}></div>
+            <div style={{ width: "30%" }}>
+              <div
+                style={{
+                  marginTop: "20px",
+                  background: "white",
+                  borderRadius: "20px",
+                  padding: "20px",
+                }}
+              >
+                <span>Imaging & Radiology</span>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    color: "rgba(76, 77, 79, 0.50)",
+                    fontSize: "10px",
+                    padding: "20px 0",
+                  }}
+                >
+                  <span>Transaction</span>
+                  <span>Amount</span>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 0",
+                    borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
+                  }}
+                >
+                  <div>
+                    <p>PRP Treatment</p>
+                    <p style={{ color: "rgba(76, 77, 79, 0.5)" }}>
+                      14 Aug, 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p>$350.00</p>
+                    <p className="prp-trwatment-btn">Paid</p>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 0",
+                    borderBottom: "1px solid rgba(76, 77, 79, 0.2)",
+                  }}
+                >
+                  <div>
+                    <p>PRP Treatment</p>
+                    <p style={{ color: "rgba(76, 77, 79, 0.5)" }}>
+                      14 Aug, 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p>$350.00</p>
+                    <p className="prp-trwatment-btn">Paid</p>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "10px 0",
+                  }}
+                >
+                  <div>
+                    <p>PRP Treatment</p>
+                    <p style={{ color: "rgba(76, 77, 79, 0.5)" }}>
+                      14 Aug, 2023
+                    </p>
+                  </div>
+                  <div>
+                    <p>$350.00</p>
+                    <p className="prp-trwatment-btn">Paid</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
