@@ -88,7 +88,7 @@ const RegisterAccount = () => {
               </div>
             </div>
           </form>
-          <div className="radio-wrapper">
+          <div className="radio-wrapperd">
             <input className="input-text" type="checkbox" />
             <p>Subscribe to our monthly newsletter</p>
           </div>
@@ -97,7 +97,7 @@ const RegisterAccount = () => {
             and <span>Privacy Policy</span>
           </p>
           <button className="sign-up">
-            <Link style={{ textDecoration: "none", color: "#fff" }} to={'/doctor-dashborad'}>
+            <Link style={{ textDecoration: "none", color: "#fff" }} to={'/doctor-dashboard'}>
               Sign Up
             </Link>
           </button>
@@ -105,7 +105,7 @@ const RegisterAccount = () => {
             Already have an account? <Link to="/signin">Log in</Link>
           </p>
         </div>
-        <div className="right">
+        <div className="righttt">
           <img src={Sideimg} alt="Img" className="side-img" />
         </div>
       </div>

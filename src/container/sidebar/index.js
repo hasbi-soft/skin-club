@@ -7,22 +7,18 @@ export default function SideBar() {
     <div className="sb-content1">
       <ul className="main-menu">
         <li className="active">
-          <Link style={{ textDecoration: "none", color: "#4c4d4f" }} to={"/"}>
+          <Link style={{ textDecoration: "none", color: "#4c4d4f" }} to={"/patient-dashboard"}>
             Overview
           </Link>
         </li>
         <li>
-          <Link
-            style={{ textDecoration: "none", color: "#4c4d4f" }}
-            to={"/doctor-detail"}
-          >
+          <Link style={{ textDecoration: "none", color: "#4c4d4f" }}>
             Profile
           </Link>
         </li>
         <li>
           <Link
             style={{ textDecoration: "none", color: "#4c4d4f" }}
-            to={"/appointment"}
           >
             Appointments
           </Link>

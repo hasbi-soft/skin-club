@@ -5,11 +5,12 @@ import Facebook from "../../Assets/Images/facebook.svg";
 import Google from "../../Assets/Images/google.svg";
 import Twitter from "../../Assets/Images/twitter.svg";
 import { Link } from "react-router-dom";
+import "./Signin.css";
 
 const Signin = () => {
   return (
     <div className="wrapper">
-      <div className="header">
+      <div className="headerrrrr">
         <img src={Logo} alt="logo" className="logo" />
       </div>
       <div className="container">
@@ -28,16 +29,20 @@ const Signin = () => {
             </Link>
           </p>
           <div className="inputs">
-            <div className="input-wrapper">
-              <label htmlFor="email">Email</label>
+            <div className="input-wrapperer">
+              <label htmlFor="email" style={{ marginBottom: "10px" }}>
+                Email
+              </label>
               <input type="email" placeholder="john@email.com" name="email" />
-              <p className="error">Error message</p>
+              <p className="errorrrr">Error message</p>
             </div>
-            <div className="input-wrapper">
-              <label htmlFor="password">Password</label>
-              <input type="password" placeholder="password" name="password" />
-              <div className="error-wrapper">
-                <p className="error">Error message</p>
+            <div className="input-wrapperer">
+              <label htmlFor="password" style={{ marginBottom: "10px" }}>
+                Password
+              </label>
+              <input type="password" placeholder="**********" name="password" />
+              <div className="error-wrapperr">
+                <p className="errorrrr"></p>
                 <Link
                   to="/forgot"
                   style={{
@@ -58,7 +63,12 @@ const Signin = () => {
             <p>Remember Me</p>
           </div>
           <button className="sign-up" style={{ marginTop: "20px" }}>
-            Log In
+            <Link
+              to={"/patient-dashboard"}
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              Log In
+            </Link>
           </button>
           <p className="login-text">
             Don’t have an account?{" "}
@@ -96,7 +106,7 @@ const Signin = () => {
             </div>
           </div>
         </div>
-        <div className="right">
+        <div className="righttt">
           <img src={Sideimg2} alt="Img" className="side-img" />
         </div>
       </div>

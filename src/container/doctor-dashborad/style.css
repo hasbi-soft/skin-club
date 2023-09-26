@@ -1,0 +1,149 @@
+.App {
+  font-family: cabin, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(76, 77, 79, 0.2);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.App-logo {
+  position: relative;
+  width: 136px;
+  height: 24px;
+  top: 28px;
+  left: 28px;
+}
+
+.header-content {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  top: 28px;
+  right: 28px;
+}
+
+.bell-icon-header {
+  width: 18px;
+  height: 20px;
+}
+
+.body {
+  display: flex;
+  background-color: #fff9f1;
+}
+
+.side-bar {
+  display: grid;
+  padding-left: 20px;
+  gap: 15px;
+  width: 20%;
+  padding-top: 30px;
+  height: fit-content;
+  background-color: #fff;
+}
+
+.wrapperrs {
+  width: 85%;
+  padding: 20px;
+  background-color: #fff9f1;
+}
+
+.active {
+  background-color: #fff9f1;
+  border-radius: 14px;
+}
+
+.side-bar-text {
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #000;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.faqq {
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.date-time-barr {
+  display: flex;
+  margin-top: 15px;
+  gap: 30px;
+}
+
+.surgical-historyy {
+  border-radius: 20px;
+  background: #fff;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.history-icon-bg {
+  background: rgb(248, 248, 248);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.history-title {
+  margin-top: 15px;
+}
+
+.history-search {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(248, 248, 248);
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(76, 77, 79, 0.2);
+}
+
+.liposuction {
+  background: #f8f8f8;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.prp-trwatment-btn {
+  background: rgb(54, 196, 144);
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}

@@ -31,8 +31,7 @@ function DoctorDetail() {
       </header>
       <div className="body">
         <div className="side-bar">
-          <span className="side-bar-text"></span>
-          <Link to={"/"} className="side-bar-text">
+          <Link to={"/doctor-dashboard"} className="side-bar-text">
             Overview
           </Link>
           <Link to={"/doctor-detail"} className="side-bar-text active">
@@ -320,7 +319,7 @@ function DoctorDetail() {
               </div>
             </div>
           </div>
-          <div className="treatment-history">
+          <div className="treatment-historyy">
             <div
               style={{
                 display: "flex",
@@ -415,7 +414,14 @@ function DoctorDetail() {
               </tr>
             </table>
           </div>
-          <div style={{ display: "flex", gap: "15px", marginTop: "30px" }}>
+          <div
+            style={{
+              display: "flex",
+              gap: "15px",
+              marginTop: "30px",
+              width: "100%",
+            }}
+          >
             <div style={{ width: "70%" }}>
               <div className="surgical-history">
                 <div

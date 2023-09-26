@@ -26,7 +26,7 @@ function Brighton() {
       </header>
       <div className="body">
         <div className="side-bar">
-          <Link to={"/"} className="side-bar-text">
+          <Link to={"/doctor-dashboard"} className="side-bar-text">
             Overview
           </Link>
           <Link to={"/doctor-detail"} className="side-bar-text">

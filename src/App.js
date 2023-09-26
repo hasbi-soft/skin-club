@@ -17,12 +17,14 @@ import ToorakHelp from "./container/Appointment/Toorak/help";
 import PrahranHelp from "./container/Appointment/Prahran/help";
 import PatientDashboard from "./container/PatientDashborad";
 import VirtualConsultation from "./container/VirtualConsultation/doctor";
+import DoctorDashboard from "./container/doctor-dashborad";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PatientDashboard />}></Route>
+        <Route path="/" element={<RegisterAccount />}></Route>
+        <Route path="/patient-dashboard" element={<PatientDashboard />}></Route>
         <Route path="/doctor-detail" element={<DoctorDetail />}></Route>
         <Route path="/appointment" element={<Appointment />}></Route>
         <Route path="/appointment/toorak" element={<Toorak />}></Route>
@@ -50,11 +52,11 @@ function App() {
           element={<BrightonHelp />}
         ></Route>
         <Route path="/404" element={<Page404 />}></Route>
-        <Route path="/register" element={<RegisterAccount />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/forgot" element={<Forgot />}></Route>
         <Route path="/remember" element={<Remember />}></Route>
         <Route path="/virtual-consultation" element={<VirtualConsultation />}></Route>
+        <Route path="/doctor-dashboard" element={<DoctorDashboard />}></Route>
       </Routes>
     </BrowserRouter>
   );
