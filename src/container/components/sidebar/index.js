@@ -1,10 +1,10 @@
 import React from "react";
-import "./styles.modules.css";
+import "./styles.css";
 import { Link } from "react-router-dom";
 
 export default function SideBar() {
   return (
-    <div className="sb-content1">
+    <div className="sb-content">
       <ul className="main-menu">
         <li className="active">
           <Link style={{ textDecoration: "none", color: "#4c4d4f" }} to={"/"}>

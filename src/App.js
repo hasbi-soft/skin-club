@@ -15,12 +15,15 @@ import BrightonVerification from "./container/Appointment/Brighton/verification"
 import BrightonHelp from "./container/Appointment/Brighton/help";
 import ToorakHelp from "./container/Appointment/Toorak/help";
 import PrahranHelp from "./container/Appointment/Prahran/help";
+import PatientDashboard from "./container/PatientDashborad";
+import VirtualConsultation from "./container/VirtualConsultation/doctor";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<DoctorDetail />}></Route>
+        <Route path="/" element={<PatientDashboard />}></Route>
+        <Route path="/doctor-detail" element={<DoctorDetail />}></Route>
         <Route path="/appointment" element={<Appointment />}></Route>
         <Route path="/appointment/toorak" element={<Toorak />}></Route>
         <Route
@@ -51,6 +54,7 @@ function App() {
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/forgot" element={<Forgot />}></Route>
         <Route path="/remember" element={<Remember />}></Route>
+        <Route path="/virtual-consultation" element={<VirtualConsultation />}></Route>
       </Routes>
     </BrowserRouter>
   );

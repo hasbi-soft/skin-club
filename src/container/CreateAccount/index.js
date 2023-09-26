@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.module.css";
+import "./styles.css";
 import Logo from "../../Assets/Images/logo.png";
 import Facebook from "../../Assets/Images/facebook.svg";
 import Google from "../../Assets/Images/google.svg";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const RegisterAccount = () => {
   return (
     <div className="wrapper">
-      <div className="header">
+      <div className="headerr">
         <img src={Logo} alt="logo" className="logo" />
       </div>
       <div className="container">
@@ -96,7 +96,11 @@ const RegisterAccount = () => {
             By clicking below you agree to our <span> Terms of Service</span>{" "}
             and <span>Privacy Policy</span>
           </p>
-          <button className="sign-up">Sign Up</button>
+          <button className="sign-up">
+            <Link style={{ textDecoration: "none", color: "#fff" }} to={'/doctor-dashborad'}>
+              Sign Up
+            </Link>
+          </button>
           <p className="login-text">
             Already have an account? <Link to="/signin">Log in</Link>
           </p>

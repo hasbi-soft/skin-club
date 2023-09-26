@@ -16,9 +16,9 @@ import Smile from "../../Assets/Images/Smile.svg";
 import Attach from "../../Assets/Images/Attach.svg";
 import Mic2 from "../../Assets/Images/mic2.svg";
 import Send from "../../Assets/Images/send.svg";
-import "./doctor.css";
+import "./doctor.modules.css";
 
-const doctor = () => {
+const VirtualConsultation = () => {
   return (
     <>
       <Header />
@@ -153,4 +153,4 @@ const doctor = () => {
   );
 };
 
-export default doctor;
+export default VirtualConsultation;

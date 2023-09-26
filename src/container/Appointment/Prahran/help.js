@@ -20,15 +20,19 @@ function PrahranHelp() {
           <img
             src={bell}
             style={{ color: "#4C4D4F" }}
-            className="bell-icon"
+            className="bell-icon-header"
             alt="notification"
           />
         </div>
       </header>
       <div className="body">
         <div className="side-bar">
-          <span className="side-bar-text">Overview</span>
-          <span className="side-bar-text">Profile</span>
+          <Link to={"/"} className="side-bar-text">
+            Overview
+          </Link>
+          <Link to={"/doctor-detail"} className="side-bar-text">
+            Profile
+          </Link>
           <Link to={"/appointment"} className="side-bar-text active">
             Appointments
           </Link>

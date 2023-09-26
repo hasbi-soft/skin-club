@@ -1,29 +1,42 @@
 .sb-content {
   padding: 15px;
   background-color: #fff;
-  width: 17%;
 }
-
 .main-menu li {
   color: #4c4d4f;
-  font-size: 18px;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 21px; /* 116.667% */
   list-style: none;
   padding: 15px;
 }
-
 ul.main-menu {
   padding: 0;
+}
+.active {
+  border-radius: 14px;
+  background: #fff9f1;
 }
 
 .sub-menu ul li {
   color: #4c4d4f;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 21px; /* 150% */
   padding: 10px;
 }
-
 .sub-menu ul {
   padding: 0px;
   padding-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .right .date {
+    display: none;
+  }
+  .right .time {
+    display: none;
+  }
 }
