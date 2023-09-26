@@ -1,0 +1,29 @@
+.sb-content {
+  padding: 15px;
+  background-color: #fff;
+  width: 17%;
+}
+
+.main-menu li {
+  color: #4c4d4f;
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+  padding: 15px;
+}
+
+ul.main-menu {
+  padding: 0;
+}
+
+.sub-menu ul li {
+  color: #4c4d4f;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.sub-menu ul {
+  padding: 0px;
+  padding-left: 30px;
+}

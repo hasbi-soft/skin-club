@@ -1,0 +1,31 @@
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  background: #FFF;
+}
+
+.right2 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.right2 p {
+  color: #4c4d4f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bell-icon {
+  border-radius: 14px;
+  background: #f8f8f8;
+  display: flex;
+  margin: 0;
+  height: 48px;
+  width: 48px;
+  align-items: center;
+  justify-content: center;
+}

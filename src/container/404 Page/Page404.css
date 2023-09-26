@@ -1,0 +1,45 @@
+.container2 {
+    background: url('../../Assets/Images/bg.png');
+    object-fit: cover;
+    border-radius: 14px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF9F1;
+    margin: 69px 0;
+}
+
+.error-box {
+    display: grid;
+    gap: 15px;
+    place-items: center;
+}
+
+.error-num {
+    color: #4C4D4F;
+    font-family: 'Cabin', sans-serif;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.error-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.error-message {
+    color: rgba(76, 77, 79, 0.50);
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 800px) {
+    .container2{
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,8 @@
+.error-wrapper span {
+    color: rgba(76, 77, 79, 0.50);
+    font-family: Cabin;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}

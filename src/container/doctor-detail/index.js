@@ -11,6 +11,7 @@ import downArrow from "../assets/DownArrow.svg";
 import goto from "../assets/goto.svg";
 import edit2 from "../assets/Edit2.svg";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function DoctorDetail() {
   return (
@@ -32,7 +33,7 @@ function DoctorDetail() {
         <div className="side-bar">
           <span className="side-bar-text active">Overview</span>
           <span className="side-bar-text">Profile</span>
-          <span className="side-bar-text">Appointments</span>
+          <Link to={"/appointment"} className="side-bar-text">Appointments</Link>
           <span className="side-bar-text">History</span>
           <span className="side-bar-text">Messages</span>
           <span className="side-bar-text">Support</span>

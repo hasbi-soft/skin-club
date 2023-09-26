@@ -1,0 +1,177 @@
+.App {
+  font-family: cabin, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(76, 77, 79, 0.2);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #fff;
+}
+
+.App-logo {
+  position: relative;
+  width: 136px;
+  height: 24px;
+  top: 28px;
+  left: 28px;
+}
+
+.header-content {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  top: 28px;
+  right: 28px;
+}
+
+.bell-icon {
+  width: 18px;
+  height: 20px;
+}
+
+.body {
+  display: flex;
+  background-color: #fff9f1;
+}
+
+.side-bar {
+  display: grid;
+  padding-left: 20px;
+  gap: 15px;
+  width: 20%;
+  padding-top: 30px;
+  height: fit-content;
+  background-color: #fff;
+}
+
+.wrappers {
+  width: 85%;
+  padding: 20px;
+  background-color: #fff9f1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-content {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+}
+
+.active {
+  background-color: #fff9f1;
+  border-radius: 14px;
+}
+
+.side-bar-text {
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #000;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrappers {
+    display: grid;
+  }
+  .header-content {
+    display: none;
+  }
+  .App-header {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .bar-content {
+    display: none;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .side-bar {
+    display: none;
+  }
+  .App-header {
+    height: 80px;
+    width: 100%;
+  }
+  .header-content {
+    display: none;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.title {
+  font-size: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.sign-up {
+  width: 100%;
+  height: 48px;
+  border-radius: 24px;
+  background: #000;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.input-text {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding: 14px 0;
+  font-size: 10px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.input-text::placeholder {
+  font-size: 12px;
+}
+
+.guest-text {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 12px;
+}
