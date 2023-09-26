@@ -28,7 +28,14 @@ export default function SideBar() {
         <div className="sub-menu">
           <ul>
             <li>Videos</li>
-            <li>Videos Library</li>
+            <li>
+              <Link
+                to={"/video-library"}
+                style={{ textDecoration: "none", color: "#4c4d4f" }}
+              >
+                Videos Library
+              </Link>
+            </li>
           </ul>
         </div>
         <li>Messages</li>

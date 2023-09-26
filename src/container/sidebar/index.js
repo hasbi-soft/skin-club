@@ -7,7 +7,10 @@ export default function SideBar() {
     <div className="sb-content1">
       <ul className="main-menu">
         <li className="active">
-          <Link style={{ textDecoration: "none", color: "#4c4d4f" }} to={"/patient-dashboard"}>
+          <Link
+            style={{ textDecoration: "none", color: "#4c4d4f" }}
+            to={"/patient-dashboard"}
+          >
             Overview
           </Link>
         </li>
@@ -17,9 +20,7 @@ export default function SideBar() {
           </Link>
         </li>
         <li>
-          <Link
-            style={{ textDecoration: "none", color: "#4c4d4f" }}
-          >
+          <Link style={{ textDecoration: "none", color: "#4c4d4f" }}>
             Appointments
           </Link>
         </li>
@@ -27,7 +28,14 @@ export default function SideBar() {
         <div className="sub-menu">
           <ul>
             <li>Videos</li>
-            <li>Videos Library</li>
+            <li>
+              <Link
+                to={"/video-library"}
+                style={{ textDecoration: "none", color: "#4c4d4f" }}
+              >
+                Videos Library
+              </Link>
+            </li>
           </ul>
         </div>
         <li>Messages</li>

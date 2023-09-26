@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import { BellIcon } from "./images";
 import Logo from "./images/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Header(props) {
   return (
@@ -14,7 +15,9 @@ export default function Header(props) {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <img src={Logo} alt="logo" />
+      <Link to={"/"}>
+        <img src={Logo} alt="logo" />
+      </Link>
 
       <div className="right">
         <p className="date">Sunday, 20 August</p>

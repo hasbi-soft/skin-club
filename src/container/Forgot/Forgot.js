@@ -6,9 +6,11 @@ import "./Forgot.css";
 
 const Forgot = () => {
   return (
-    <div className="wrapper">
-      <div className="header">
-        <img src={Logo} alt="logo" className="logo" />
+    <div className="wrapper123">
+      <div className="header123">
+        <Link to={"/"}>
+          <img src={Logo} alt="logo" className="logo" />
+        </Link>
       </div>
       <div className="container">
         <div className="left">
@@ -19,8 +21,10 @@ const Forgot = () => {
           </p>
           <form>
             <div className="inputs">
-              <div className="input-wrapper">
-                <label htmlFor="email">Email</label>
+              <div className="input-wrapper123">
+                <label htmlFor="email" style={{ marginBottom: "10px" }}>
+                  Email
+                </label>
                 <input type="email" placeholder="john@email.com" name="email" />
                 <p className="error">Error message</p>
               </div>
@@ -41,7 +45,7 @@ const Forgot = () => {
             </Link>
           </p>
         </div>
-        <div className="right">
+        <div className="right123">
           <img src={Sideimg3} alt="Img" className="side-img" />
         </div>
       </div>

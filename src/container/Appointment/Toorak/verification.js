@@ -12,7 +12,9 @@ function ToorakVerification() {
         <div className="bar-content">
           <img src={bar} alt="" />
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
+        <Link to={"/"}>
+          <img src={logo} className="App-logo" alt="logo" />
+        </Link>
         <div className="header-content">
           <span>Sunday, 20 August</span>
           <span>1:50 PM</span>

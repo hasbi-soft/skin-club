@@ -18,6 +18,7 @@ import PrahranHelp from "./container/Appointment/Prahran/help";
 import PatientDashboard from "./container/PatientDashborad";
 import VirtualConsultation from "./container/VirtualConsultation/doctor";
 import DoctorDashboard from "./container/doctor-dashborad";
+import VideoLibraryYouTube from "./container/VideoLibarary";
 
 function App() {
   return (
@@ -55,8 +56,9 @@ function App() {
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/forgot" element={<Forgot />}></Route>
         <Route path="/remember" element={<Remember />}></Route>
-        <Route path="/virtual-consultation" element={<VirtualConsultation />}></Route>
+        <Route path="/virtual-consultation" element={<VirtualConsultation />}></Route>VideoLibraryYouTube
         <Route path="/doctor-dashboard" element={<DoctorDashboard />}></Route>
+        <Route path="/video-library" element={<VideoLibraryYouTube />}></Route>
       </Routes>
     </BrowserRouter>
   );
