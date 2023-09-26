@@ -1,0 +1,243 @@
+
+.App {
+    font-family: cabin, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 1174px;
+  }
+  .App-header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+  .App-logo {
+    position: relative;
+    width: 136px;
+    height: 24px;
+    top: 28px;
+    left: 28px;
+  }
+  .header-content {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    top: 28px;
+    right: 28px;
+  }
+  .bell-icon {
+    width: 18px;
+    height: 20px;
+  }
+  .body {
+    display: flex;
+  }
+  .side-bar34 {
+    color: #4C4D4F;
+    font-family: Cabin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 116.667% */
+    width: 240px;
+    padding: 20px;
+    background: #fff;
+  }
+  .wrapper34 {
+    width: 85%;
+    padding: 20px;
+    background-color: #FFF9F1;
+    height: 1174px;
+    gap: 20px;
+  }
+  .active {
+    background-color: #FFF9F1;
+    border-radius: 14px;
+  }
+  .product{
+    color: #4C4D4F;
+    font-family: Cabin;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    margin-left: 60px;
+  }
+  .arrow{
+    width: 10px;
+    height: 5px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+stroke: #4C4D4F;
+margin-left: 140px;
+
+  }
+  .arro{
+    width: 10px;
+    height: 5px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+stroke: #4C4D4F;
+margin-left: 120px;
+
+
+  }
+  .mainheading{
+    color: #4C4D4F;
+font-family: Cabin;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 75% */
+  }
+  .uploadform{
+    border-radius: 14px;
+background: #000;
+float: right;
+padding: 10px 17px 13px 17px;
+
+gap: 10px;
+color: #FFF;
+text-align: center;
+font-family: Cabin;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+  }
+  .subheading{
+    color: #4C4D4F;
+font-family: Cabin;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 131.25% */
+  }
+  .pdf{
+    width: 273px;
+height: 249px;
+flex-shrink: 0;
+border-radius: 12px;
+background-image: url("../assetsss/pdf.svg");
+
+  }
+  .delicon{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.10);
+display: inline-flex;
+padding: 5px;
+align-items: flex-start;
+gap: 10px;
+float: right;
+margin-right: 10px;
+margin-top: 10px;
+  }
+  .subdiv{
+    border-radius: 2px 2px 12px 12px;
+background: #FFF;width: 273px;
+height: 58px;
+flex-shrink: 0;
+display: flex;
+
+  }
+ 
+  .Hair{
+    color: #343434;
+font-family: Cabin;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px; /* 150% */
+
+padding: 20px;
+  }
+  .maindiv{
+    display: flex;
+    gap: 30px;
+  }
+  .submaindiv{
+    border-radius: 12px;
+    width: 273px;
+    height: 249px;
+  }
+  /* drag file css */
+
+  .drag{
+    font-family: cabin, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 466px;
+    width: 734px;
+    border-radius: 15px;
+    background: #FFF;
+    position: fixed;
+    z-index: 999;
+    top: 150px;
+    left: 400px;
+  }
+  .App-header-drag{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+  }
+  .wrapperdrag{
+    padding: 30px;
+  }
+
+  .mainheading-drag{
+    color: #343434;
+text-align: center;
+font-family: Cabin;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+  }
+  .dragfile-space{
+    width: 656px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px dashed #A3A3A3;
+    background: #EEE;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 28px 0px 15px 5px;
+    
+  
+  }
+  .slectfile{
+    color: #343434;
+text-align: center;
+font-family: Cabin;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+  }
+
+  .dragfilesvg{
+    border-radius: 25px;
+border: 1px dashed #A3A3A3;
+background: #EEE;
+margin-top: 50px;
+flex-shrink: 0;
+  }
+  .uploadformdrag{
+    
+    padding: 10px 17px 13px 17px;
+   
+    gap: 10px;
+    border-radius: 14px;
+background: #000;
+color: #FFF;
+text-align: center;
+font-family: Cabin;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+float: right;
+
+  }

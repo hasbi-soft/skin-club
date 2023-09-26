@@ -31,7 +31,12 @@ const Forgot = () => {
             </div>
           </form>
           <button className="sign-up" style={{ marginTop: "20px" }}>
-            Reset Password
+            <Link
+              style={{ textDecoration: "none", color: "#fff" }}
+              to={"/admin"}
+            >
+              Reset Password
+            </Link>
           </button>
           <p className="login-text">
             <Link

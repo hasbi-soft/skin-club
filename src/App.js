@@ -19,6 +19,8 @@ import PatientDashboard from "./container/PatientDashborad";
 import VirtualConsultation from "./container/VirtualConsultation/doctor";
 import DoctorDashboard from "./container/doctor-dashborad";
 import VideoLibraryYouTube from "./container/VideoLibarary";
+import AdminPanel from "./container/aftercare-form/admin";
+import DragFile from "./container/aftercare-form/dragfile";
 
 function App() {
   return (
@@ -59,6 +61,8 @@ function App() {
         <Route path="/virtual-consultation" element={<VirtualConsultation />}></Route>VideoLibraryYouTube
         <Route path="/doctor-dashboard" element={<DoctorDashboard />}></Route>
         <Route path="/video-library" element={<VideoLibraryYouTube />}></Route>
+        <Route path="/admin" element={<AdminPanel />}></Route>
+        <Route path="/drag-file" element={<DragFile />}></Route>
       </Routes>
     </BrowserRouter>
   );

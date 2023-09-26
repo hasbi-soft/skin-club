@@ -52,7 +52,7 @@ const RegisterAccount = () => {
                   placeholder="jane"
                   name="fname"
                 />
-                <p className="error">Error message</p>
+                <p className="error345">Error message</p>
               </div>
               <div className="name">
                 <label htmlFor="lname">Last Name</label>
@@ -62,7 +62,7 @@ const RegisterAccount = () => {
                   placeholder="Doe"
                   name="lname"
                 />
-                <p className="error">Error message</p>
+                <p className="error345">Error message</p>
               </div>
             </div>
             <div className="inputs">
@@ -74,7 +74,7 @@ const RegisterAccount = () => {
                   placeholder="john@email.com"
                   name="email"
                 />
-                <p className="error">Error message</p>
+                <p className="error345">Error message</p>
               </div>
               <div className="input-wrapper">
                 <label htmlFor="password">Password</label>
@@ -84,7 +84,7 @@ const RegisterAccount = () => {
                   placeholder="password"
                   name="password"
                 />
-                <p className="error">Error message</p>
+                <p className="error345">Error message</p>
               </div>
             </div>
           </form>

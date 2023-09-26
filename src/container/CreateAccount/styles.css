@@ -12,7 +12,7 @@ body {
   align-items: center;
 }
 
-.headerr {
+.header234 {
   width: 80%;
   height: 80px;
   background: #fff;
@@ -194,7 +194,7 @@ label {
   object-fit: cover;
 }
 
-.error {
+.error345 {
   color: #e11d48;
   font-family: "Cabin", sans-serif;
   font-size: 12px;
@@ -224,7 +224,7 @@ label {
   .righttt {
     display: none;
   }
-  .headerr {
+  .header234 {
     width: 80%;
   }
 }
@@ -233,7 +233,7 @@ label {
   .container {
     width: auto;
   }
-  .headerr {
+  .header234 {
     width: 100%;
   }
 

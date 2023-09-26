@@ -7,25 +7,28 @@ import "./Remember.css";
 const Remember = () => {
   return (
     <div className="wrapper">
-      <div className="header">
+      <div className="header234">
         <img src={Logo} alt="logo" className="logo" />
       </div>
       <div className="container">
         <div className="left">
           <h1 className="text">Reset your password</h1>
           <p className="login2">
-            NCreate a new strong password, must be at least 8 characters
-            long
+            NCreate a new strong password, must be at least 8 characters long
           </p>
           <form>
             <div className="inputs">
               <div className="input-wrapper">
-                <label htmlFor="email">New Password</label>
+                <label htmlFor="email" style={{ marginBottom: "10px" }}>
+                  New Password
+                </label>
                 <input type="password" placeholder="**********" name="email" />
                 <p className="error">Error message</p>
               </div>
               <div className="input-wrapper">
-                <label htmlFor="email">Confirm Password</label>
+                <label htmlFor="email" style={{ marginBottom: "10px" }}>
+                  Confirm Password
+                </label>
                 <input type="password" placeholder="**********" name="email" />
                 <p className="error">Error message</p>
               </div>
@@ -46,7 +49,7 @@ const Remember = () => {
             </Link>
           </p>
         </div>
-        <div className="right">
+        <div className="right1234">
           <img src={Sideimg3} alt="Img" className="side-img" />
         </div>
       </div>
